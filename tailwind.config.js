@@ -1,12 +1,7 @@
-import daisyui from 'daisyui'
-
-export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}"
-  ],
+module.exports = {
+  content: ["./src/**/*.{js,ts,jsx,tsx}"], // Ensure your paths are correct
   theme: {
     extend: {},
   },
-  plugins: [daisyui],
-}
+  plugins: [require("daisyui")], // Make sure DaisyUI is here
+};
