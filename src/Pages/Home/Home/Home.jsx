@@ -1,5 +1,9 @@
+import ItemList from "../../Shared/ItemList/ItemList";
 import Banner from "../Banner/Banner";
 import Category from "../Category/Category";
+import Featured from "../Featured/Featured";
+import PopularMenu from "../PopularMenu/PopularMenu";
+import Testimonial from "./Testimonial/Testimonial";
 
 
 
@@ -8,6 +12,10 @@ const Home = () =>{
         <div>
             <Banner></Banner>
             <Category></Category>
+            <PopularMenu></PopularMenu>
+            <ItemList></ItemList>
+            <Featured></Featured>
+            <Testimonial></Testimonial>
         </div>
     );
 };
