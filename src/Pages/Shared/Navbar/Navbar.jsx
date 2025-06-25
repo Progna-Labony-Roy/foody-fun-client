@@ -1,17 +1,9 @@
+import { Link } from "react-router";
+
 const Navbar = () => {
   const navOptions = (
     <>
-      <li><a>Item 1</a></li>
-      <li>
-        <details>
-          <summary>Parent</summary>
-          <ul className="p-2 bg-base-100">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-            <li><a>Submenu 3</a></li> {/* Added submenu */}
-          </ul>
-        </details>
-      </li>
+      <li><a><Link to="/menu">Our Menu</Link></a></li>
       <li><a>Item 3</a></li>
     </>
   );
@@ -33,7 +25,7 @@ const Navbar = () => {
             {navOptions}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">Foody Fun</a>
+        <Link to='/' className="btn btn-ghost text-2xl">Foody Fun</Link>
       </div>
 
       {/* Desktop Menu */}
