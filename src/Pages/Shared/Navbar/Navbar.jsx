@@ -9,6 +9,7 @@ const Navbar = () => {
   );
 
   return (
+
     <div className="navbar fixed z-10 bg-opacity-30 bg-black-100 text-white shadow-sm">
       {/* Mobile Menu */}
       <div className="navbar-start">
@@ -23,6 +24,7 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow  rounded-box w-52"
           >
             {navOptions}
+            
           </ul>
         </div>
         <Link to='/' className="btn btn-ghost text-2xl">Foody Fun</Link>
@@ -36,9 +38,9 @@ const Navbar = () => {
       </div>
 
       {/* Right Side */}
-      <div className="navbar-end">
+      {/* <div className="navbar-end">
         <a className="btn">Button</a>
-      </div>
+      </div> */}
     </div>
   );
 };

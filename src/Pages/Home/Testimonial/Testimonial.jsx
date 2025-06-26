@@ -1,4 +1,3 @@
-import SectionTitle from "../../../../assets/components/SectionTitle/SectionTitle";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import '@smastrom/react-rating/style.css'
 
@@ -10,6 +9,7 @@ import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 import { useEffect, useState } from "react";
 import { Rating } from "@smastrom/react-rating";
+import SectionTitle from '../../../assets/components/SectionTitle/SectionTitle';
 
 const Testimonial = () => {
     const [reviwes, setRevies] = useState([]);
@@ -19,7 +19,7 @@ const Testimonial = () => {
             .then(data => setRevies(data))
     })
     return (
-        <section className="lg:mx-64 lg:my-16 text-center">
+        <section className="lg:mx-64 lg:my-16 md:mx-40 md:mb-20 mb-16 mx-12 -mt-12 text-center">
             <SectionTitle
                 subHeading={"What Our Client Say"}
                 heading={'Testimonials'}
@@ -35,7 +35,7 @@ const Testimonial = () => {
       value={review.rating}
       readOnly
     />
-                          <p className="lg:my-5">{review.details}</p>
+                          <p className="lg:my-5 md:mx-24 md:my-5 mx-16 my-2">{review.details}</p>
                         <h3 className="text-2xl text-orange-400">{review.name}</h3>
                       </div>
                     </SwiperSlide>)

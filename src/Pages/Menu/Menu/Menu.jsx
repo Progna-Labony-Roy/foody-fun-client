@@ -29,7 +29,7 @@ const Menu = () => {
             description={"Would you like to try our dish?"}
             ></Cover>
             
-            <div className="my-28">
+            <div className="mt-10 mb-32">
                 <SectionTitle 
             subHeading={"Our Menu"} 
             heading={"Don't miss today's offer"}
@@ -41,7 +41,7 @@ const Menu = () => {
             title={"Desserts"}
             description={"Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."}
             ></Cover>
-            <div className="my-28">
+            <div className="mt-10 mb-32">
                 <MenuCategory items={dessert}></MenuCategory>
             </div>
             <Cover 
@@ -49,7 +49,7 @@ const Menu = () => {
             title={"Pizza"}
             description={"Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."}
             ></Cover>
-            <div className="my-28">
+            <div className="mt-10 mb-32">
                 <MenuCategory items={pizza}></MenuCategory>
             </div>
             <Cover 
@@ -57,7 +57,7 @@ const Menu = () => {
             title={"Salads"}
             description={"Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."}
             ></Cover>
-            <div className="my-28">
+            <div className="mt-10 mb-32">
                 <MenuCategory items={salad}></MenuCategory>
             </div>
             <Cover 
@@ -65,7 +65,7 @@ const Menu = () => {
             title={"Soups"}
             description={"Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."}
             ></Cover>
-            <div className="my-28">
+            <div className="mt-10 mb-32">
                 <MenuCategory items={soup}></MenuCategory>
             </div>
         </div>

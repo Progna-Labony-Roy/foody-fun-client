@@ -5,7 +5,7 @@ import Category from "../Category/Category";
 import Featured from "../Featured/Featured";
 import FoodyFun from "../FoodyFun/FoodyFun";
 import PopularMenu from "../PopularMenu/PopularMenu";
-import Testimonial from "./Testimonial/Testimonial";
+import Testimonial from "../Testimonial/Testimonial";
 
 
 

@@ -3,7 +3,7 @@ import "./FoodyFun.css";
 
 const FoodyFun = () => {
   return (
-    <div className="relative fun-image h-[500px] bg-cover bg-center">
+    <div className="relative fun-image lg:h-[500px] h-[350px] bg-cover bg-center">
       <div className="absolute inset-0 bg-black bg-opacity-30"></div>
       <div className="relative flex items-center justify-center h-full px-4">
         <div className="bg-white bg-opacity-90 p-10 md:p-16 text-center max-w-3xl mx-auto rounded shadow-lg">
