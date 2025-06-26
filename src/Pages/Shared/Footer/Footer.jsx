@@ -3,12 +3,12 @@ const Footer = () => {
         <footer>
             <div className="footer sm:footer-horizontal bg-neutral text-neutral-content lg:p-24 p-10">
                 <aside>
-                      <p>
+                    <p>
                         CONTACT US
                     </p>
-                    <p>28B Shantiniketan Lane,Ballygunge,Kolkata - 700019</p>
+                    <p>Siliguri - 700019</p>
                     <p>9048959325</p>
-                    <p>Mon - Fri: 08:00 - 22:00</p>
+                    <p>Sun - Fri: 11:00am - 10:00pm</p>
                 </aside>
                 <nav>
                     <h6 className="footer-title">Follow US</h6>
@@ -51,12 +51,12 @@ const Footer = () => {
                 </nav>
 
             </div>
-            <hr className="text-white"/>
+            <hr className="text-white" />
             <div className="footer sm:footer-horizontal footer-center bg-neutral text-neutral-content p-4">
-  <aside>
-    <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
-  </aside>
-</div>
+                <aside>
+                    <p>Copyright © {new Date().getFullYear()} - All right reserved by Foody Fun Ltd</p>
+                </aside>
+            </div>
         </footer>
     );
 };

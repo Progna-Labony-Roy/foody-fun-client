@@ -5,7 +5,7 @@ import './Featured.css'
 const Featured = () =>{
     return (
         <div className="featured-item bg-fixed my-32 text-white">
-            <div className="md:px-20 md:py-10 lg:px-32 lg:pt-5 lg:pb-24 bg-slate-500 bg-opacity-40">
+            <div className="md:px-20 md:py-10 lg:px-32 lg:pt-5 lg:pb-24 bg-slate-900 bg-opacity-40">
                 <SectionTitle className subHeading={"Check it out"} heading={"Featured Item"}></SectionTitle>
             <div className="md:flex justify-center items-center  ">
                 <div>
